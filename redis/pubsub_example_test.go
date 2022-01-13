@@ -12,6 +12,7 @@
 // License for the specific language governing permissions and limitations
 // under the License.
 
+//go:build go1.7
 // +build go1.7
 
 package redis_test
@@ -21,7 +22,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gomodule/redigo/redis"
+	"github.com/quentinlesceller/redigo/redis"
 )
 
 // listenPubSubChannels listens for messages on Redis pubsub channels. The

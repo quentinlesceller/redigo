@@ -1,5 +1,5 @@
 [clog]
-repository = "https://github.com/gomodule/redigo"
+repository = "https://github.com/quentinlesceller/redigo"
 subtitle = "Release Notes"
 from-latest-tag = true
 
